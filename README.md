@@ -368,43 +368,20 @@ The middleware returned from `createNodeMiddleware` can also serve as an
   </thead>
   <tbody align=left valign=top>
     <tr>
-      <th>
-        <code>app</code>
-      </th>
-      <th>
-        <code>App instance</code>
-      </th>
-      <td>
-        <strong>Required</strong>.
-      </td>
+      <td><code>app</code></td>
+      <td><code>App instance</code></td>
+      <td><strong>Required</strong>.</td>
     </tr>
     <tr>
-      <th>
-        <code>options.pathPrefix</code>
-      </th>
-      <th>
-        <code>string</code>
-      </th>
-      <td>
-
-All exposed paths will be prefixed with the provided prefix. Defaults to `"/api/github"`
-
-</td>
+      <td><code>options.pathPrefix</code></td>
+      <td><code>string</code></td>
+      <td>All exposed paths will be prefixed with the provided prefix. Defaults to <code>"/api/github"</code>.</td>
     </tr>
     <tr>
-      <td>
-        <code>log</code>
-        <em>
-          object
-        </em>
-      </td>
-      <td>
-
-Used for internal logging. Defaults to [`console`](https://developer.mozilla.org/en-US/docs/Web/API/console) with `debug` and `info` doing nothing.
-
-      </td>
+      <td><code>log</code> <em>object</em></td>
+      <td>Used for internal logging. Defaults to <a href="https://developer.mozilla.org/en-US/docs/Web/API/console"><code>console</code></a> with <code>debug</code> and <code>info</code> doing nothing.</td>
+      <td></td>
     </tr>
-
   </tbody>
 </table>
 
